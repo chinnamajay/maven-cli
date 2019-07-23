@@ -6,6 +6,6 @@ public class TimeString {
         String string = "July 25, 2017";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
         LocalDate date = LocalDate.parse(string, formatter);
-        System.out.println(date);
+        System.out.println(datee);
     }
 }
